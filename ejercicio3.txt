@@ -1,0 +1,13 @@
+Tenemos este objeto:
+{
+ "producto": "Ordenador",
+ "precio": 1200,
+ "stock": 15
+}
+Responde:
+1. ¿Qué tipo de dato tiene precio? 1200
+2. ¿Qué tipo de dato tiene stock? 15
+3. ¿Son del mismo tipo? No porque uno es tipo string y el otro es un valor numerico
+4. Modifica el JSON para que precio sea un número en lugar de texto.
+Objetivo: entender la diferencia entre un string que contiene un valor numérico y un
+integer.
