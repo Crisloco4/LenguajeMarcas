@@ -1,0 +1,32 @@
+<tienda>
+    <producto id="1">
+        <nombre>Intel Core i7-14700KF</nombre>
+        <marca>Intel</marca>
+        <precio>334,99€</precio>
+        <stock>Si</stock>
+    </producto>
+    <producto id="2">
+        <nombre>AMD Ryzen 7 7800X3D</nombre>
+        <marca>AMD </marca>
+        <precio>348,90€</precio>
+        <stock>Si</stock>
+    </producto>
+    <producto id="3">
+        <nombre>GeForce RTX 5090</nombre>
+        <marca>GeForce</marca>
+        <precio>7047,83€</precio>
+        <stock>Si</stock>
+    </producto>
+    <producto id="4">
+        <nombre>IROK MG75 PRO</nombre>
+        <marca>IROK</marca>
+        <precio>101,99€</precio>
+        <stock>Si</stock>
+    </producto>
+    <producto id="5">
+        <nombre>Logitech G502 Hero</nombre>
+        <marca>Logitech</marca>
+        <precio>29,99€</precio>
+        <stock>Si</stock>
+    </producto>
+</tienda>

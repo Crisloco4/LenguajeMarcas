@@ -1,0 +1,104 @@
+<instituto>
+    <profesores>
+        <profesor id="p1">
+            <nombre>Laura</nombre>
+            <apellidos>García López</apellidos>
+            <departamento>Matemáticas</departamento>
+        </profesor>
+        <profesor id="p2">
+            <nombre>Carlos</nombre>
+            <apellidos>Martínez Gómez</apellidos>
+            <departamento>Lengua Castellana</departamento>
+        </profesor>
+        <profesor id="p3">
+            <nombre>Ana</nombre>
+            <apellidos>Fernández Ruiz</apellidos>
+            <departamento>Ciencias Naturales</departamento>
+        </profesor>
+    </profesores>
+    <asignaturas>
+        <asignatura id="asig1">
+            <nombre>Matemáticas</nombre>
+            <horasSemanales>4</horasSemanales>
+        </asignatura>
+        <asignatura id="asig2">
+            <nombre>Lengua Castellana</nombre>
+            <horasSemanales>4</horasSemanales>
+        </asignatura>
+        <asignatura id="asig3">
+            <nombre>Biología</nombre>
+            <horasSemanales>3</horasSemanales>
+        </asignatura>
+        <asignatura id="asig4">
+            <nombre>Historia</nombre>
+            <horasSemanales>3</horasSemanales>
+        </asignatura>
+    </asignaturas>
+    <alumnos>
+        <alumno id="a1">
+            <nombre>Alejandro</nombre>
+            <apellidos>Pérez Sánchez</apellidos>
+            <edad>16</edad>
+            <curso>1º Bachillerato</curso>
+            <asignaturas>
+                <asignatura ref="asig1">
+                    <nota>8.5</nota>
+                </asignatura>
+                <asignatura ref="asig2">
+                    <nota>7.0</nota>
+                </asignatura>
+                <asignatura ref="asig3">
+                    <nota>9.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+        <alumno id="a2">
+            <nombre>María</nombre>
+            <apellidos>Torres Díaz</apellidos>
+            <edad>15</edad>
+            <curso>4º ESO</curso>
+            <asignaturas>
+                <asignatura ref="asig1">
+                    <nota>6.0</nota>
+                </asignatura>
+                <asignatura ref="asig4">
+                    <nota>8.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+        <alumno id="a3">
+            <nombre>David</nombre>
+            <apellidos>Navarro Romero</apellidos>
+            <edad>16</edad>
+            <curso>1º Bachillerato</curso>
+            <asignaturas>
+                <asignatura ref="asig2">
+                    <nota>5.5</nota>
+                </asignatura>
+                <asignatura ref="asig3">
+                    <nota>6.5</nota>
+                </asignatura>
+                <asignatura ref="asig4">
+                    <nota>7.5</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+        <alumno id="a4">
+            <nombre>Elena</nombre>
+            <apellidos>Serrano Castro</apellidos>
+            <edad>17</edad>
+            <curso>2º Bachillerato</curso>
+            <asignaturas>
+                <asignatura ref="asig1">
+                    <nota>9.5</nota>
+                </asignatura>
+                <asignatura ref="asig2">
+                    <nota>8.0</nota>
+                </asignatura>
+                <asignatura ref="asig3">
+                    <nota>10.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+</instituto>

@@ -1,0 +1,163 @@
+<tienda_online>
+    <informacion_general>
+        <nombre>El Rincon Galactico S.L.</nombre>
+        <CIF>B98765432</CIF>
+        <email>contacto@rincongalactico.com</email>
+        <telefono>+34912345678</telefono>
+        <direccion>Calle de la Fantasia 42, 28001 Madrid</direccion>
+    </informacion_general>
+    <catalogos_productos>
+        <producto id="PROD01">
+            <nombre>Sarten Antiadherente de Titanio</nombre>
+            <categoria>Hogar y Cocina</categoria>
+            <precio>34.99</precio>
+            <stock>120</stock>
+            <estado>Disponible</estado>
+        </producto>
+        <producto id="PROD02">
+            <nombre>Zapatillas Deportivas UltraFly</nombre>
+            <categoria>Calzado</categoria>
+            <precio>89.95</precio>
+            <stock>45</stock>
+            <estado>Disponible</estado>
+        </producto>
+        <producto id="PROD03">
+            <nombre>Lampara LED Inteligente RGB</nombre>
+            <categoria>Iluminacion</categoria>
+            <precio>19.99</precio>
+            <stock>200</stock>
+            <estado>Disponible</estado>
+        </producto>
+        <producto id="PROD04">
+            <nombre>Mochila Antirrobo e Impermeable</nombre>
+            <categoria>Accesorios</categoria>
+            <precio>42.50</precio>
+            <stock>0</stock>
+            <estado>Agotado</estado>
+        </producto>
+        <producto id="PROD05">
+            <nombre>Cafetera Superautomatica Express</nombre>
+            <categoria>Electrodomesticos</categoria>
+            <precio>249.00</precio>
+            <stock>15</stock>
+            <estado>Disponible</estado>
+        </producto>
+    </catalogos_productos>
+    <clientes>
+        <cliente id="CLIE01">
+            <nombre>Pepe</nombre>
+            <apellidos>Perez Rodriguez</apellidos>
+            <email>pepe.perez@example.com</email>
+            <telefono>+34600111222</telefono>
+            <direccion>Avenida del Sol 15, 41001 Sevilla</direccion>
+        </cliente>
+        <cliente id="CLIE02">
+            <nombre>Maria</nombre>
+            <apellidos>Lopez Fernandez</apellidos>
+            <email>maria.lopez@example.com</email>
+            <telefono>+34611222333</telefono>
+            <direccion>Calle del Mar 8, 08001 Barcelona</direccion>
+        </cliente>
+        <cliente id="CLIE03">
+            <nombre>Gonzalo</nombre>
+            <apellidos>Ramirez Silva</apellidos>
+            <email>gonzalo.ramirez@example.com</email>
+            <telefono>+34622333444</telefono>
+            <direccion>Plaza Mayor 3, 48001 Bilbao</direccion>
+        </cliente>
+        <cliente id="CLIE04">
+            <nombre>Lucia</nombre>
+            <apellidos>Torres Mendez</apellidos>
+            <email>lucia.torres@example.com</email>
+            <telefono>+34633444555</telefono>
+            <direccion>Paseo del Prado 27, 28014 Madrid</direccion>
+        </cliente>
+    </clientes>
+    <pedidos>
+        <pedido id="PEDI01">
+            <fecha>2026-09-01</fecha>
+            <cliente>CLIE01</cliente>
+            <direccion_envio>Avenida del Sol 15, 41001 Sevilla</direccion_envio>
+            <estado>Entregado</estado>
+            <lista_productos>
+                <producto id="PROD01">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>34.99</precio_unitario>
+                </producto>
+                <producto id="PROD03">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>19.99</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>89.97</total>
+        </pedido>
+        <pedido id="PEDI02">
+            <fecha>2026-09-05</fecha>
+            <cliente>CLIE02</cliente>
+            <direccion_envio>Calle del Mar 8, 08001 Barcelona</direccion_envio>
+            <estado>Enviado</estado>
+            <lista_productos>
+                <producto id="PROD02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.95</precio_unitario>
+                </producto>
+                <producto id="PROD05">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>249.00</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>338.95</total>
+        </pedido>
+        <pedido id="PEDI03">
+            <fecha>2026-09-10</fecha>
+            <cliente>CLIE03</cliente>
+            <direccion_envio>Plaza Mayor 3, 48001 Bilbao</direccion_envio>
+            <estado>Procesando</estado>
+            <lista_productos>
+                <producto id="PROD01">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>34.99</precio_unitario>
+                </producto>
+                <producto id="PROD02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.95</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>124.94</total>
+        </pedido>
+        <pedido id="PEDI04">
+            <fecha>2026-09-12</fecha>
+            <cliente>CLIE04</cliente>
+            <direccion_envio>Paseo del Prado 27, 28014 Madrid</direccion_envio>
+            <estado>Pendiente</estado>
+            <lista_productos>
+                <producto id="PROD03">
+                    <cantidad>3</cantidad>
+                    <precio_unitario>19.99</precio_unitario>
+                </producto>
+                <producto id="PROD05">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>249.00</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>308.97</total>
+        </pedido>
+        <pedido id="PEDI05">
+            <fecha>2026-09-15</fecha>
+            <cliente>CLIE01</cliente>
+            <direccion_envio>Avenida del Sol 15, 41001 Sevilla</direccion_envio>
+            <estado>Cancelado</estado>
+            <lista_productos>
+                <producto id="PROD02">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>89.95</precio_unitario>
+                </producto>
+                <producto id="PROD03">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>19.99</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>199.89</total>
+        </pedido>
+    </pedidos>
+</tienda_online>

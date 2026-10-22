@@ -1,0 +1,50 @@
+<pedidos>
+    <pedido id="PE01">
+        <fecha>30/5/2026</fecha>
+        <datos_cliente>
+            <nombre>Pepe</nombre>
+            <email>pepegrillo07@gmail.com</email>
+            <telefono>789564158</telefono>
+        </datos_cliente>
+        <direccion_cliente />
+        <lista_productos>
+            <producto>
+                <nombre>chubasqueros para peces</nombre>
+                <cantidad>3444</cantidad>
+                <precio_unitario>70</precio_unitario>
+            </producto>
+        </lista_productos>
+    </pedido>
+    <pedido id="PE02">
+        <fecha>12/12/2012</fecha>
+        <datos_cliente>
+            <nombre>ruben</nombre>
+            <email>rubenaurafarmer@gmail.com</email>
+            <telefono>987632514</telefono>
+        </datos_cliente>
+        <direccion_cliente />
+        <lista_productos>
+            <producto>
+                <nombre>sal marina</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>2</precio_unitario>
+            </producto>
+        </lista_productos>
+    </pedido>
+    <pedido id="PE03">
+        <fecha>7/4/2025</fecha>
+        <datos_cliente>
+            <nombre>Pedro</nombre>
+            <email>pedropiqueras@telecinco.com</email>
+            <telefono>985214587</telefono>
+        </datos_cliente>
+        <direccion_cliente />
+        <lista_productos>
+            <producto>
+                <nombre>Piedras</nombre>
+                <cantidad>765796</cantidad>
+                <precio_unitario>0</precio_unitario>
+            </producto>
+        </lista_productos>
+    </pedido>
+</pedidos>
