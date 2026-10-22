@@ -1,0 +1,151 @@
+{
+  "clinica": {
+    "nombre": "Clínica Salud Integral",
+    "direccion": {
+      "calle": "Avenida de la Salud 45",
+      "ciudad": "Valencia",
+      "codigoPostal": "46010"
+    },
+    "configuracion": {
+      "horarioApertura": "08:00",
+      "horarioCierre": "20:00",
+      "duracionCitaMinutos": 30
+    },
+    "medicos": [
+      {
+        "id": 1,
+        "nombre": "Dra. Elena Navarro",
+        "especialidad": "Medicina General",
+        "colegiado": "464612345",
+        "consultas": ["Lunes", "Miércoles", "Viernes"]
+      },
+      {
+        "id": 2,
+        "nombre": "Dr. Sergio Martínez",
+        "especialidad": "Cardiología",
+        "colegiado": "464654321",
+        "consultas": ["Martes", "Jueves"]
+      },
+      {
+        "id": 3,
+        "nombre": "Dra. Carmen Ruiz",
+        "especialidad": "Pediatría",
+        "colegiado": "464698765",
+        "consultas": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+      }
+    ],
+    "pacientes": [
+      {
+        "id": 101,
+        "nombre": "Alejandro Pérez",
+        "fechaNacimiento": "1990-05-14",
+        "seguro": {
+          "compania": "Sanitas",
+          "numeroPoliza": "POL-987654"
+        },
+        "alergias": ["Penicilina"],
+        "historial": [
+          {
+            "fecha": "2025-01-10",
+            "diagnostico": "Faringitis aguda",
+            "tratamiento": {
+              "medicamento": "Amoxicilina",
+              "dosis": "500mg cada 8 horas",
+              "duracionDias": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "nombre": "Lucía Gómez",
+        "fechaNacimiento": "1985-11-22",
+        "seguro": null,
+        "alergias": [],
+        "historial": [
+          {
+            "fecha": "2025-02-03",
+            "diagnostico": "Hipertensión leve",
+            "tratamiento": {
+              "medicamento": "Enalapril",
+              "dosis": "5mg al día",
+              "duracionDias": 30
+            }
+          },
+          {
+            "fecha": "2025-04-12",
+            "diagnostico": "Revisión general",
+            "tratamiento": {
+              "medicamento": "Vitamina D",
+              "dosis": "1 comprimido diario",
+              "duracionDias": 60
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "nombre": "Mateo Sanchis",
+        "fechaNacimiento": "2015-03-30",
+        "seguro": {
+          "compania": "Adeslas",
+          "numeroPoliza": "POL-123456"
+        },
+        "alergias": ["Polen", "Ácaros"],
+        "historial": [
+          {
+            "fecha": "2025-03-15",
+            "diagnostico": "Rinitis alérgica estacional",
+            "tratamiento": {
+              "medicamento": "Antihistamínico en jarabe",
+              "dosis": "5ml cada 12 horas",
+              "duracionDias": 10
+            }
+          }
+        ]
+      }
+    ],
+    "citas": [
+      {
+        "id": 1,
+        "pacienteId": 101,
+        "medicoId": 1,
+        "fecha": "2026-10-25T09:00:00",
+        "confirmada": true,
+        "notas": "Control rutinario"
+      },
+      {
+        "id": 2,
+        "pacienteId": 102,
+        "medicoId": 2,
+        "fecha": "2026-10-25T10:00:00",
+        "confirmada": true,
+        "notas": null
+      },
+      {
+        "id": 3,
+        "pacienteId": 103,
+        "medicoId": 3,
+        "fecha": "2026-10-26T11:30:00",
+        "confirmada": false,
+        "notas": "Posible alergia primaveral"
+      },
+      {
+        "id": 4,
+        "pacienteId": 101,
+        "medicoId": 2,
+        "fecha": "2026-10-26T12:30:00",
+        "confirmada": true,
+        "notas": "Electrocardiograma de control"
+      },
+      {
+        "id": 5,
+        "pacienteId": 102,
+        "medicoId": 1,
+        "fecha": "2026-10-27T09:30:00",
+        "confirmada": true,
+        "notas": "Resultados de análisis"
+      }
+    ]
+  }
+}

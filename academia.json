@@ -1,0 +1,143 @@
+{
+  "academia": {
+    "nombre": "Academia Tecnológica Avanzada",
+    "fundacion": 2018,
+    "sede": {
+      "ciudad": "Madrid",
+      "pais": "España",
+      "coordenadas": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    "cursos": [
+      {
+        "codigo": "CUR-001",
+        "titulo": "Desarrollo Web Full Stack",
+        "profesor": {
+          "nombre": "Carlos Mendoza",
+          "especialidades": ["JavaScript", "React", "Node.js"],
+          "contacto": {
+            "email": "carlos.mendoza@academia.com",
+            "telefono": "+34600111222"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Lunes",
+            "inicio": "16:00",
+            "fin": "19:00"
+          },
+          {
+            "dia": "Miércoles",
+            "inicio": "16:00",
+            "fin": "19:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Ana Gómez",
+            "activo": true,
+            "notas": [8.5, 9.0, 9.5],
+            "notaFinal": 9.0
+          },
+          {
+            "nombre": "Luis Pérez",
+            "activo": true,
+            "notas": [7.0, 6.5, 8.0],
+            "notaFinal": 7.2
+          },
+          {
+            "nombre": "Elena Torres",
+            "activo": false,
+            "notas": [4.0, 5.0],
+            "notaFinal": null
+          }
+        ]
+      },
+      {
+        "codigo": "CUR-002",
+        "titulo": "Ciencia de Datos e Inteligencia Artificial",
+        "profesor": {
+          "nombre": "Sofía Benítez",
+          "especialidades": ["Python", "Machine Learning", "Estadística"],
+          "contacto": {
+            "email": "sofia.benitez@academia.com",
+            "telefono": "+34600333444"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Martes",
+            "inicio": "18:00",
+            "fin": "21:00"
+          },
+          {
+            "dia": "Jueves",
+            "inicio": "18:00",
+            "fin": "21:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "David Ruiz",
+            "activo": true,
+            "notas": [9.0, 9.5, 10.0],
+            "notaFinal": 9.5
+          },
+          {
+            "nombre": "Marta Gil",
+            "activo": true,
+            "notas": [8.0, 8.5, 8.5],
+            "notaFinal": 8.3
+          },
+          {
+            "nombre": "Jorge Sanz",
+            "activo": true,
+            "notas": [6.0, 7.0],
+            "notaFinal": null
+          }
+        ]
+      },
+      {
+        "codigo": "CUR-003",
+        "titulo": "Ciberseguridad y Redes",
+        "profesor": {
+          "nombre": "Javier Ramos",
+          "especialidades": ["Redes", "Ethical Hacking", "Seguridad en la Nube"],
+          "contacto": {
+            "email": "javier.ramos@academia.com",
+            "telefono": "+34600555666"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Viernes",
+            "inicio": "15:00",
+            "fin": "20:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Claudia Vega",
+            "activo": true,
+            "notas": [7.5, 8.0, 8.5],
+            "notaFinal": 8.0
+          },
+          {
+            "nombre": "Raúl Domínguez",
+            "activo": false,
+            "notas": [5.0, 4.5, 6.0],
+            "notaFinal": 5.2
+          },
+          {
+            "nombre": "Beatriz Morales",
+            "activo": true,
+            "notas": [9.0, 8.5],
+            "notaFinal": null
+          }
+        ]
+      }
+    ]
+  }
+}

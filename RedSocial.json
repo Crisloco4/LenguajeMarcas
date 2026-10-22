@@ -1,0 +1,123 @@
+{
+  "redSocial": {
+    "usuarios": [
+      {
+        "id": 1,
+        "usuario": "ana_dev",
+        "perfil": {
+          "bio": "Apasionada del desarrollo web y la tecnología.",
+          "ubicacion": "Madrid, España",
+          "verificado": true
+        },
+        "siguiendo": [2, 3]
+      },
+      {
+        "id": 2,
+        "usuario": "carlos_code",
+        "perfil": {
+          "bio": "Programador backend y entusiasta de bases de datos.",
+          "ubicacion": "Barcelona, España",
+          "verificado": false
+        },
+        "siguiendo": [1]
+      },
+      {
+        "id": 3,
+        "usuario": "lucia_ux",
+        "perfil": {
+          "bio": "Diseñadora UI/UX creando experiencias digitales.",
+          "ubicacion": "Valencia, España",
+          "verificado": true
+        },
+        "siguiendo": [1, 2]
+      }
+    ],
+    "publicaciones": [
+      {
+        "id": 101,
+        "autorId": 1,
+        "texto": "¡Acabo de lanzar mi nuevo proyecto en GitHub! Echadle un vistazo.",
+        "fecha": "2026-10-09T10:15:00",
+        "reacciones": {
+          "meGusta": 15,
+          "risa": 2,
+          "sorpresa": 4
+        },
+        "hashtags": ["desarrollo", "github", "web"]
+      },
+      {
+        "id": 102,
+        "autorId": 2,
+        "texto": "Optimizando consultas SQL hoy, no hay nada mejor que un buen índice.",
+        "fecha": "2026-10-09T11:30:00",
+        "reacciones": {
+          "meGusta": 8,
+          "risa": 1,
+          "sorpresa": 0
+        },
+        "hashtags": []
+      },
+      {
+        "id": 103,
+        "autorId": 3,
+        "texto": "Nuevos wireframes listos para el feedback del equipo de producto.",
+        "fecha": "2026-10-09T13:45:00",
+        "reacciones": {
+          "meGusta": 22,
+          "risa": 0,
+          "sorpresa": 5
+        },
+        "hashtags": ["ux", "design", "figma"]
+      },
+      {
+        "id": 104,
+        "autorId": 1,
+        "texto": "Café y código, la combinación perfecta para empezar la mañana.",
+        "fecha": "2026-10-09T14:30:00",
+        "reacciones": {
+          "meGusta": 30,
+          "risa": 5,
+          "sorpresa": 1
+        },
+        "hashtags": ["coffee", "coding"]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": 1001,
+        "publicacionId": 101,
+        "autorId": 2,
+        "texto": "¡Felicidades! Lo probaré ahora mismo.",
+        "editado": false
+      },
+      {
+        "id": 1002,
+        "publicacionId": 101,
+        "autorId": 3,
+        "texto": "Tiene una pinta excelente, gran trabajo.",
+        "editado": true
+      },
+      {
+        "id": 1003,
+        "publicacionId": 102,
+        "autorId": 1,
+        "texto": "Totalmente de acuerdo, los índices salvan vidas.",
+        "editado": false
+      },
+      {
+        "id": 1004,
+        "publicacionId": 103,
+        "autorId": 2,
+        "texto": "Me encantan los colores elegidos.",
+        "editado": false
+      },
+      {
+        "id": 1005,
+        "publicacionId": 104,
+        "autorId": 3,
+        "texto": "¡Disfrútalo! Yo voy por el segundo.",
+        "editado": false
+      }
+    ]
+  }
+}

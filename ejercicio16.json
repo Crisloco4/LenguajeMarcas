@@ -1,0 +1,108 @@
+{
+  "tienda": {
+    "nombre": "TecnoShop Online",
+    "abierta": true,
+    "contacto": {
+      "telefono": "+34900123456",
+      "email": "soporte@tecnoshop.com"
+    },
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Smartphones",
+        "productos": [
+          {
+            "sku": "TEL-001",
+            "nombre": "Smartphone Pro Max",
+            "precio": 999.99,
+            "stock": 15,
+            "etiquetas": ["móvil", "gama alta", "oferta"],
+            "dimensiones": {
+              "alto": 15.5,
+              "ancho": 7.5,
+              "fondo": 0.8
+            },
+            "disponible": true
+          },
+          {
+            "sku": "TEL-002",
+            "nombre": "Smartphone Lite",
+            "precio": 299.50,
+            "stock": 40,
+            "etiquetas": ["móvil", "económico"],
+            "dimensiones": {
+              "alto": 14.8,
+              "ancho": 7.1,
+              "fondo": 0.9
+            },
+            "disponible": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Portátiles",
+        "productos": [
+          {
+            "sku": "LAP-101",
+            "nombre": "Portátil Ultralight 14\"",
+            "precio": 1250.00,
+            "stock": 8,
+            "etiquetas": ["ordenador", "trabajo", "portátil"],
+            "dimensiones": {
+              "alto": 31.5,
+              "ancho": 22.0,
+              "fondo": 1.5
+            },
+            "disponible": true
+          },
+          {
+            "sku": "LAP-102",
+            "nombre": "Portátil Gaming 15.6\"",
+            "precio": 1499.99,
+            "stock": 3,
+            "etiquetas": ["gaming", "alto rendimiento"],
+            "dimensiones": {
+              "alto": 36.0,
+              "ancho": 26.0,
+              "fondo": 2.3
+            },
+            "disponible": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Accesorios",
+        "productos": [
+          {
+            "sku": "ACC-201",
+            "nombre": "Auriculares Inalámbricos",
+            "precio": 79.99,
+            "stock": 25,
+            "etiquetas": ["audio", "bluetooth", "música"],
+            "dimensiones": {
+              "alto": 5.0,
+              "ancho": 5.0,
+              "fondo": 2.5
+            },
+            "disponible": true
+          },
+          {
+            "sku": "ACC-202",
+            "nombre": "Ratón Óptico Ergonómico",
+            "precio": 29.90,
+            "stock": 60,
+            "etiquetas": ["periférico", "oficina"],
+            "dimensiones": {
+              "alto": 12.0,
+              "ancho": 7.0,
+              "fondo": 4.0
+            },
+            "disponible": true
+          }
+        ]
+      }
+    ]
+  }
+}

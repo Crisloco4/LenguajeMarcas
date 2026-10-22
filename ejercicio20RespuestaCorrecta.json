@@ -1,0 +1,172 @@
+{
+  "status": 200,
+  "ok": true,
+  "meta": {
+    "pagina": 1,
+    "porPagina": 4,
+    "totalResultados": 12,
+    "enlaces": {
+      "anterior": null,
+      "siguiente": "https://api.streaming.com/v1/series?page=2"
+    },
+    "generadoEn": "2026-10-22T12:00:00.000Z"
+  },
+  "data": [
+    {
+      "id": 1,
+      "titulo": "Chronicles of the Code",
+      "genero": ["Ciencia Ficción", "Drama"],
+      "estreno": 2024,
+      "valoracion": {
+        "media": 8.7,
+        "votos": 14520
+      },
+      "reparto": [
+        {
+          "actor": "Laura Vance",
+          "personaje": "Ada Lovelace",
+          "principal": true
+        },
+        {
+          "actor": "Mark Sterling",
+          "personaje": "Alan Turing",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "El despertar del algoritmo",
+              "duracionMin": 52
+            },
+            {
+              "titulo": "Bucle infinito",
+              "duracionMin": 48
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": false
+      },
+      "trailer": {
+        "url": "https://streaming.com/trailers/code-s1.mp4",
+        "duracionSeg": 120
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Cyber Detective",
+      "genero": ["Thriller", "Crimen"],
+      "estreno": 2023,
+      "valoracion": {
+        "media": 7.9,
+        "votos": 9800
+      },
+      "reparto": [
+        {
+          "actor": "John Doe",
+          "personaje": "Detective Miller",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "IP Oculta",
+              "duracionMin": 45
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": false,
+        "US": true
+      },
+      "trailer": null
+    },
+    {
+      "id": 3,
+      "titulo": "The Silicon Valley",
+      "genero": ["Comedia", "Tecnología"],
+      "estreno": 2022,
+      "valoracion": {
+        "media": 9.1,
+        "votos": 32000
+      },
+      "reparto": [
+        {
+          "actor": "Richard Hendricks",
+          "personaje": "CEO Fundador",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Compresión óptima",
+              "duracionMin": 30
+            },
+            {
+              "titulo": "El algoritmo mágico",
+              "duracionMin": 32
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": true
+      },
+      "trailer": {
+        "url": "https://streaming.com/trailers/silicon.mp4",
+        "duracionSeg": 90
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Database Mysteries",
+      "genero": ["Documental"],
+      "estreno": 2025,
+      "valoracion": {
+        "media": 8.2,
+        "votos": 4100
+      },
+      "reparto": [
+        {
+          "actor": "Codd Relacional",
+          "personaje": "Narrador",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Normalización de datos",
+              "duracionMin": 60
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": false,
+        "MX": true,
+        "US": false
+      },
+      "trailer": null
+    }
+  ],
+  "errores": []
+}

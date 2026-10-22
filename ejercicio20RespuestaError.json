@@ -1,0 +1,17 @@
+{
+  "status": 404,
+  "ok": false,
+  "data": null,
+  "errores": [
+    {
+      "codigo": "ERR_NOT_FOUND",
+      "mensaje": "El recurso solicitado no existe en la base de datos.",
+      "campo": "endpoint"
+    },
+    {
+      "codigo": "ERR_INVALID_PARAM",
+      "mensaje": "El parámetro de paginación proporcionado no es válido.",
+      "campo": "page"
+    }
+  ]
+}
