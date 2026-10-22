@@ -1,0 +1,30 @@
+{
+  "tienda": {
+    "productos": [
+      {
+        "nombre": "Camiseta deportiva",
+        "precio": 19.99,
+        "categoria": "Ropa",
+        "disponible": true
+      },
+      {
+        "nombre": "Zapatillas running",
+        "precio": 59.90,
+        "categoria": "Calzado",
+        "disponible": true
+      },
+      {
+        "nombre": "Mochila escolar",
+        "precio": 29.50,
+        "categoria": "Accesorios",
+        "disponible": false
+      },
+      {
+        "nombre": "Botella térmica",
+        "precio": 15.00,
+        "categoria": "Deporte",
+        "disponible": true
+      }
+    ]
+  }
+}

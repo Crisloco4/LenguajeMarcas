@@ -1,0 +1,26 @@
+{
+  "tienda": {
+    "nombre": "ElectroHogar",
+    "direccion": {
+      "calle": "Calle Comercial 45",
+      "ciudad": "Valencia"
+    },
+    "productos": [
+      {
+        "nombre": "Televisor Smart TV",
+        "precio": 349.99,
+        "disponible": true
+      },
+      {
+        "nombre": "Auriculares Bluetooth",
+        "precio": 45.50,
+        "disponible": true
+      },
+      {
+        "nombre": "Cafetera exprés",
+        "precio": 89.00,
+        "disponible": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "peliculas": [
+    {
+      "titulo": "Titanic",
+      "director": "James Cameron",
+      "año": 1997
+    },
+    {
+      "titulo": "Avatar",
+      "director": "James Cameron",
+      "año": 2009
+    },
+    {
+      "titulo": "Coco",
+      "director": "Lee Unkrich",
+      "año": 2017
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "genero": "Aventura",
+      "precio": 59.99,
+      "multijugador": false
+    },
+    {
+      "titulo": "Apex Legends",
+      "genero": "Shooter",
+      "precio": 0,
+      "multijugador": true
+    },
+    {
+      "titulo": "Stardew Valley",
+      "genero": "Simulación",
+      "precio": 13.99,
+      "multijugador": true
+    }
+  ]
+}

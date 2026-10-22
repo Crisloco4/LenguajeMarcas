@@ -1,0 +1,49 @@
+{
+  "pedidos": [
+    {
+      "numero": 101,
+      "cliente": {
+        "nombre": "María López",
+        "email": "maria.lopez@email.com",
+        "direccion": {
+          "calle": "Calle Mayor 12",
+          "ciudad": "Madrid",
+          "codigoPostal": "28013"
+        }
+      },
+      "producto": "Auriculares inalámbricos",
+      "cantidad": 1,
+      "entregado": true
+    },
+    {
+      "numero": 102,
+      "cliente": {
+        "nombre": "Javier Ruiz",
+        "email": "javier.ruiz@email.com",
+        "direccion": {
+          "calle": "Avenida de la Constitución 45",
+          "ciudad": "Valencia",
+          "codigoPostal": "46009"
+        }
+      },
+      "producto": "Teclado mecánico",
+      "cantidad": 2,
+      "entregado": false
+    },
+    {
+      "numero": 103,
+      "cliente": {
+        "nombre": "Sofía Torres",
+        "email": "sofia.torres@email.com",
+        "direccion": {
+          "calle": "Calle Gran Vía 80",
+          "ciudad": "Barcelona",
+          "codigoPostal": "08011"
+        }
+      },
+      "producto": "Ratón ergonómico",
+      "cantidad": 1,
+      "entregado": true
+    }
+  ]
+}

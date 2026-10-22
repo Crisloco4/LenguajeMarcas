@@ -1,0 +1,9 @@
+{
+  "nombre": "Alejandro Gómez",
+  "edad": 28,
+  "direccion": {
+    "calle": "Calle Mayor 15",
+    "ciudad": "Madrid",
+    "codigoPostal": "28013"
+  }
+}
