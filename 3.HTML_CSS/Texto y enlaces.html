@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacion Tecnica - WeatherAPI</title>
+</head>
+<body>
+    <header>
+        <h1>WeatherAPI</h1>
+        <p>Documentacion tecnica oficial para desarrolladores[cite: 2].</p>
+        
+        <nav aria-label="Menu principal de documentacion">
+            <ul>
+                <li><a href="#introduccion">Introduccion</a></li>
+                <li><a href="#autenticacion">Autenticacion</a></li>
+                <li><a href="#endpoint-usuarios">Endpoint de usuarios</a></li>
+                <li><a href="#endpoint-ciudades">Endpoint de ciudades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduccion">
+            <h2>Introduccion</h2>
+            <p>Bienvenido a la documentacion tecnica de <strong>WeatherAPI</strong>, una interfaz diseñada para la consulta de datos meteorológicos.</p>
+            <p>Para obtener mas informacion general sobre los servicios, puedes <a href="https://ejemplo.com/documentacion-oficial-weatherapi" target="_blank" rel="noopener noreferrer">consultar la documentación oficial de WeatherAPI</a>.</p>
+        </section>
+
+        <section id="autenticacion">
+            <h2>Autenticacion</h2>
+            <p>El acceso a los endpoints requiere el uso de una clave de API valida enviada en las cabeceras de la peticion.</p>
+            <p>Te recomendamos revisar detalladamente la <a href="https://ejemplo.com/politica-seguridad-weatherapi" target="_blank" rel="noopener noreferrer">política de seguridad de WeatherAPI</a> antes de integrar el servicio en producción.</p>
+        </section>
+
+        <section id="endpoint-usuarios">
+            <h2>Endpoint de usuarios</h2>
+            <p>Gestiona los perfiles y permisos de los desarrolladores registrados en la plataforma.</p>
+            <ul>
+                <li><code>GET /v1/users</code>: Lista los usuarios activos.</li>
+                <li><code>POST /v1/users</code>: Da de alta un nuevo usuario.</li>
+            </ul>
+        </section>
+
+        <section id="endpoint-ciudades">
+            <h2>Endpoint de ciudades</h2>
+            <p>Permite consultar informacion meteorologica detallada por localidad geografica.</p>
+            <ul>
+                <li><code>GET /v1/cities/{id}</code>: Devuelve el clima actual y previsiones de una ciudad.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes preguntas o necesitas soporte tecnico avanzado, ponte en contacto con nuestro equipo de integracion.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 WeatherAPI. Estructura extensible para documentacion tecnica.</p>
+    </footer>
+</body>
+</html>
